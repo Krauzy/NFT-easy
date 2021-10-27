@@ -1,0 +1,5 @@
+{
+    "solidity.compileUsingLocalVersion": "c:\\Users\\Trbry\\Documents\\GitHub\\NFT-easy\\soljson-v0.8.9+commit.e5eed63a.js",
+    "solidity.compileUsingRemoteVersion": "latest",
+    "solidity.defaultCompiler": "localNodeModule"
+}
