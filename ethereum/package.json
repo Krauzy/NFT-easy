@@ -4,15 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "node ./scripts/deploy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
     "dotenv": "^10.0.0",
     "hardhat": "^2.6.7"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.3.2"
+    "@openzeppelin/contracts": "^4.3.2",
+    "ethers": "^5.5.1"
   }
 }

@@ -11,7 +11,7 @@ contract CatsBase is ERC721 {
     constructor() ERC721("CatsBase", "ESS") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "YOUR_API_URL/api/erc721/";
+        return "adb6-187-87-65-20.ngrok.io/api/erc721/";
     }
 
     function mint(address to)
